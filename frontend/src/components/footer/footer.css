@@ -1,0 +1,14 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    height: 40px;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 5vh;
+    width: 100vw;
+}

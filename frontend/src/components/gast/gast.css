@@ -1,0 +1,39 @@
+.excuse-us h2 {
+    position: absolute;
+    top: 140px; 
+    color: #D0F4EA;
+ }
+ 
+.excuse-us{
+    height: 500px;
+    width: 80vw;
+    margin: auto;
+}
+
+.btn-excuse{
+    position: relative;
+    margin: 0px auto;
+    bottom: -50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #545f66;
+    color: #D0F4EA;
+    font-size: 1rem;
+    border: none;
+    background-color: #333333;
+}
+
+.btn-excuse:hover{
+    background-color: #888f93;
+    color: #ffffff;
+  }
+  
+  .btn-excuse:active{
+    transition-duration: 0.2s;
+    box-shadow: 2px 2px 4px 4px black inset;
+  }

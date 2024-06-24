@@ -1,0 +1,179 @@
+.div-container {
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: #71a9f7;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 
+  2px -6px 7px 2px rgba(0,0,0,0.17) inset,
+  0px -9px 7px 0px rgba(0,0,0,0.15) inset,
+  0px -20px 10px 0px rgba(0,0,0,0.1) inset,
+  0px 2px 1px 0px rgba(0,0,0,0.06),
+  0px 4px 2px 0px rgba(0,0,0,0.09),
+  0px 4px 2px 0px rgba(0,0,0,0.09),
+  0px 8px 4px 0px rgba(0,0,0,0.09);
+}
+
+.props-category{
+  position: absolute;
+}
+
+.deleteIcon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #801414;
+  position: absolute;
+  margin-top: 4vh;
+}
+
+.category-container::-webkit-scrollbar {
+    display: none; /* Ausblenden der Scrollleiste in WebKit-basierten Browsern */
+}
+
+.create-category-icon{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    font-size: 16px;
+    color: white;
+    cursor: pointer
+} 
+
+ .create-category-container{
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 80%;
+  padding: 20px;
+  left: 30%;
+  top: 45%;
+  z-index: 60;
+} 
+.cotegory-container {
+  width: 90%;
+  height: 40vh;
+  max-height: 40vh; /* Legt die maximale Höhe fest, bevor der Scrollbalken erscheint */
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  gap: 20px;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh; 
+  padding-left: 22vw;
+  padding-right: 10vw;
+  padding-top: 6vh;
+  overflow-x: hidden;
+  overflow-y: auto; 
+  position: absolute;
+  
+}
+
+.create-category-btn {
+  font-size: smaller;
+  position:absolute;
+  bottom: 100px;
+  left: 38px;
+}
+
+.create-category-beenden-btn{
+ margin-left: 30%;
+ position:absolute;
+ bottom: 40px;
+
+}
+.create-Category {
+  width: 260px;
+  height:350px;
+  display: flex;
+  position: absolute;
+  margin-left:23vw;
+  margin-top: 25vh;
+  z-index: 10;
+}
+.create-Category input{
+  max-width: 200px;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+} 
+.create-Category label{
+  margin-left: 10px;
+  width: 200px;
+  color: #D0F4EA;
+} 
+
+
+ @media (max-width: 1200px) {
+
+  .cotegory-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 22vw;
+    padding-top: 10vh; 
+  }
+}
+
+@media (max-width: 1048px) {
+
+  .cotegory-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 18vw;
+    padding-top: 2vh; 
+    margin-top: 24vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cotegory-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 20vw;
+  
+  }
+ 
+}
+@media screen and (max-width: 430px) {
+  .cotegory-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 16vw;
+  }
+  .container-expense li{
+    font-size: 14px;
+  }
+} 
+
+@media screen and (max-width: 328px) {
+  .cotegory-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  
+  }
+  .container-expense li{
+    font-size: 14px;
+  }
+} 
+
+.procent-container {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 
+  0px -5px 3px 0px rgba(0,0,0,0.15) inset,
+  0px -5px 4px 0px rgba(0,0,0,0.1) inset,
+  4px 2px 1px 2px rgba(0,0,0,0.06),
+  2px 4px 2px 1px rgba(0,0,0,0.09),
+  4px 8px 4px 4px rgba(0,0,0,0.09),
+  0px 8px 4px 0px rgba(0,0,0,0.09);
+}
+.selected-category-update {
+  display: flex;
+  justify-content: space-between;
+}

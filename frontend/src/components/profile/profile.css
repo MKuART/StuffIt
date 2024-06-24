@@ -1,0 +1,130 @@
+.profile-container {title
+    --dark-grey-background: #545F66;
+    --cornflower-blue: #71A9F7;
+    --mint-green: #D0F4EA;
+    --raspberry: #D499B9;
+    --rosa: #e8c1c5;
+    background: var(--raspberry);
+    position: absolute;
+    top: 120px;
+    height: 700px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 15vh;
+    border-radius: 16px;
+    padding-bottom: 12px;
+    box-shadow: 
+        0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+        0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+        0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+        0px 2px 1px 0px rgba(0,0,0,0.06),
+        0px 4px 2px 0px rgba(0,0,0,0.09),
+        0px 8px 4px 0px rgba(0,0,0,0.09),
+        0px 16px 8px 0px rgba(0,0,0,0.09);
+}
+
+.form-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+.input-profile-all {
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 3vh;
+    width: 100%;
+    max-width: 300px;
+    min-width: 150px;
+}
+.placeholder-div {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration-line: underline;
+    text-decoration-color: var(--rosa);
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.2rem;
+    text-align: end;
+}
+
+.show-data {
+    display: inline-block;
+    justify-content: end;
+    font-weight: bold;
+}
+.placeholder-div p {
+    text-align: end;
+}
+
+.password-reloader{
+    justify-content: right;
+}
+.delete-acc {  
+    color: var(--rosa);
+    text-decoration: none;
+}
+
+.edit-btn {
+    margin-bottom: 0px;
+}
+.title-div-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 140px;
+}
+.stuff-it-profile {
+    width: 200px;
+    color: #D0F4EA;
+    text-align: center;
+}
+.delete-acc-btn {
+    position: absolute;
+    left: 10px;
+    bottom: 20px; 
+    color: var(--rosa);
+}
+@media (max-width: 450px) {
+    .profile-container {
+        font-size: 0.8rem;
+        height: 550px;
+        margin-top: 10vh;
+    }
+    .btn{
+        font-size: 0.6rem;
+    }
+    .form-profile {
+        width: 88vw;
+    }
+}
+@media (max-width: 900px) {
+    .placeholder-div {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .profile-container {
+        margin-top: 10vh;
+    }
+    .input-profile-all {
+        align-self: flex-end;
+        margin-right: 25%;
+    }
+}
+.user-btn {
+    margin-top: 10px;
+    height: 40px;
+
+}

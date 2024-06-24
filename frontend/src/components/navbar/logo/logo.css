@@ -1,0 +1,136 @@
+.logo-container {
+    --dark-grey-background: #545F66;
+    --cornflower-blue: #71A9F7;
+    --mint-green: #D0F4EA;
+    --raspberry: #D499B9;
+    --rosa: #e8c1c5;
+    background-color: var(--cornflower-blue);
+    height: 100px; 
+    min-width: 100px;
+    border-radius: 16px;
+    box-shadow: 
+        0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+        0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+        0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+        0px 2px 1px 0px rgba(0,0,0,0.06),
+        0px 4px 2px 0px rgba(0,0,0,0.09),
+        0px 8px 4px 0px rgba(0,0,0,0.09),
+        0px 16px 8px 0px rgba(0,0,0,0.09);
+}
+@media (min-width: 1051px) {
+    .logo-container {
+        background-color: rgba(0,0,0,0.00);
+        box-shadow: none;
+    }
+}
+.cards-container {
+    height: 100px; 
+    width: 100px;
+    position: absolute;
+    left: 24px;
+    top: -6px;
+    
+}
+.logo-text {
+    position: absolute;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    top: 11px;
+    left: 26px;
+    font-size: 4.2rem;
+    color: var(--mint-green);
+    text-shadow: 
+        1px 1px 0px var(--cornflower-blue),
+        2px 2px 2px var(--mint-green),
+        -1px 0px 0px var(--raspberry);
+    z-index: 2;
+}
+.exclamation {
+    position: absolute;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    top: 0px;
+    left: 62px;
+    font-size: 4.6rem;
+    color: var(--mint-green);
+    text-shadow: 
+        1px 1px 0px var(--cornflower-blue),
+        2px 2px 2px var(--mint-green),
+        -1px 0px 0px var(--raspberry);
+    z-index: 3;
+}
+.card {
+    height: 30px; 
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    transform: rotate(60deg);
+    box-shadow: 
+        0px 1px var(--cornflower-blue),
+        0px 2px var(--raspberry);
+}
+.bag {
+    border-radius: 0px 0px 10px 8px;
+    border-left: 4px var(--mint-green) solid;
+    border-bottom: 4px var(--mint-green) solid;
+    border-right: none;
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.money {
+    border-radius: 0px;
+    width: 10px;
+    background-color: #d499b900;
+    border-left: 2px var(--rosa) solid;
+    border-bottom: 2px var(--rosa) solid;
+    border-right: none;
+    border-top: none;
+    border-radius: 2px;
+}
+.a-card {
+    top: 24px;
+    left: 0px;
+    
+}
+.b-card {
+    top: 11px;
+    left: 37px;
+    transform: rotate(82deg);
+    z-index: 1;
+}
+.c-card {
+    top: 16px;
+    left: 16px;
+    font-size: 0.25rem;
+    transform: rotate(74deg);
+}
+.d-card {
+    top: 35px;
+    left: 20px;
+    height: 35px;
+    transform: rotate(82deg);
+    z-index: 1;
+}
+.f-card {
+
+    top: 45px;
+    left: -7px;
+    height: 35px;
+}
+.g-card {
+    top: 38px;
+    left: 3px;
+    height: 35px;
+    transform: rotate(74deg);
+}
+.navlinks {
+    display: block;
+    position: absolute;
+    height: 120px;
+    width: 100px;
+
+    z-index: 5;
+    left: -15px;
+}

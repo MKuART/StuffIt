@@ -1,0 +1,172 @@
+.registry-container {
+    --dark-grey-background: #545F66;
+    --cornflower-blue: #71A9F7;
+    --mint-green: #D0F4EA;
+    --raspberry: #D499B9;
+    --rosa: #e8c1c5;
+    position: absolute;
+    top: 230px;
+    background: var(--raspberry);
+    height: 580px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 16px;
+    box-shadow: 
+        0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+        0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+        0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+        0px 2px 1px 0px rgba(0,0,0,0.06),
+        0px 4px 2px 0px rgba(0,0,0,0.09),
+        0px 8px 4px 0px rgba(0,0,0,0.09),
+        0px 16px 8px 0px rgba(0,0,0,0.09);
+}
+.registry-container h3 {
+    font-size: 2rem;
+}
+.form-registry {
+    margin-top: -5px;
+    height: 50vh;
+    width: 80vw;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-registry input{
+    height: 4vh;
+    width: 80%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.form-registry label{
+    display: block;
+    margin-bottom: 0px; 
+    width: 100%;
+/*     margin-left: -50px; */
+}
+.form-registry .btn {
+    height: 4vh;
+    width: 30%;
+    max-width: 300px;
+    min-width: 150px;
+    margin-top: 10px;
+}
+
+.registry-title {
+    font-size: medium;
+    margin-bottom: 5px;
+    margin-top: -35px;
+}
+label{
+    font-size: 0.8rem;
+}
+.stuff-it {
+    width: 200px;
+    color: #D0F4EA;
+    text-align: center;
+}
+@media (max-height: 800px) {
+    .registry-container {
+        margin-top: -50px;
+        height: 500px;
+    }
+    .registry-title {
+        display: none;
+        margin-top: -100px;
+    }
+    .form-registry {
+        margin-top: -120px;
+    }
+    .stuff-it {
+        display: none;
+    }
+
+}
+@media (max-height: 900px) {
+    .registry-container {
+        margin-top: 10px;
+        height: 600px;
+    }
+}
+@media (min-height: 800px) {
+    .stuff-it2 {
+        display: none;
+    }
+
+}
+@media (max-height: 670px) {
+    .form-registry {
+        margin-top: -140px;
+    }
+    .registry-container {
+        margin-top: -60px;
+        height: 480px;
+    }
+}
+@media (max-width: 500px) {
+    .registry-title {
+        font-size: small; 
+    }
+}
+@media (min-height: 1000px) {
+    .registry-container {
+        margin-top: 30px;
+        height: 700px;
+    }
+}
+@media (max-height: 790px) {
+    .form-registry {
+        margin-top: -140px;
+    }
+}
+@media (max-height: 760px) {
+    .form-registry {
+        margin-top: -190px;
+    }
+}
+@media (min-height: 1200px) {
+    .registry-container {
+        margin-top: 300px;
+        height: 800px;
+    }
+}
+@media (min-height: 1200px) {
+    .registry-container {
+        margin-top: 300px;
+        height: 800px;
+    }
+}
+@media (min-height: 1400px) {
+    .registry-container {
+        margin-top: 340px;
+        height: 900px;
+    }
+}
+@media (min-height: 1800px) {
+    .registry-container {
+        margin-top: 500px;
+        height: 1200px;
+    }
+}
+@media (max-width: 1200px) {
+    .registry-container {
+        margin-top: -40px;
+    }
+}
+.title-registry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 140px;
+}
+.stuff-it2 {
+    color: #D0F4EA;
+}

@@ -1,0 +1,108 @@
+
+.login-container2 .form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.login-container2 .form-login input {
+    margin-top: 20px;
+    height: 4vh;
+    width: 80%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.form-btn {
+    height: 4vh;
+    width: 30%;
+    max-width: 300px;
+    min-width: 150px;
+    margin-top: 10px;
+}
+.form-login {
+    height: 50vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-btn:active {
+    background-color: #46484b;
+    color: #ffffff;
+
+}
+.back-btn {
+    height: 4vh;
+    width: 30%;
+    max-width: 300px;
+    min-width: 150px;
+    margin-top: 10px;
+}
+.login-container2 {
+    --dark-grey-background: #545F66;
+    --cornflower-blue: #71A9F7;
+    --mint-green: #D0F4EA;
+    --raspberry: #D499B9;
+    --rosa: #e8c1c5;
+    position: absolute;
+    background: var(--raspberry);
+    height: 500px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 5vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 16px;
+    box-shadow: 
+        0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+        0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+        0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+        0px 2px 1px 0px rgba(0,0,0,0.06),
+        0px 4px 2px 0px rgba(0,0,0,0.09),
+        0px 8px 4px 0px rgba(0,0,0,0.09),
+        0px 16px 8px 0px rgba(0,0,0,0.09);
+}
+.toggle-admin-user {
+    margin-bottom: 10px;
+}
+
+.title-div-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #D0F4EA;
+}
+.title-div-login h1 {
+    font-size: 35px;
+    margin-left: 1vw;
+    --mint-green: #D0F4EA;
+}
+.login-container h3{
+    margin-top: 5vh;
+    font-size: 30px;
+}
+
+label {
+    color: var(--mint-green);
+    text-align: left;
+    width: 50vw;
+    margin-left: 20%;
+    margin-bottom: -20px;
+}
+.title-div-login {
+    padding-top: 15vh;
+}
+@media (max-height: 800px) {
+    .login-container2 {
+        height: 400px;
+        margin-top: 0vh;
+    }
+    .title-div-login {
+        padding-top: 20vh;
+    }
+}

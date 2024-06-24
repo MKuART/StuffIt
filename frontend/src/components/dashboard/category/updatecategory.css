@@ -1,0 +1,118 @@
+.perent-update-category-window {
+  width: 300px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-bottom: 10px;
+  z-index: 1;
+  cursor: initial ;
+}
+.update-category-window {
+  --dark-grey-background: #545F66;
+  --cornflower-blue: #71A9F7;
+  --mint-green: #D0F4EA;
+  --raspberry: #D499B9;
+  --rosa: #E8C1C5;
+  background-color: #D499B9;
+  position: fixed;
+  left: 20%;
+  top: 45%;
+  z-index: 3;
+}
+.update-category-window-btn {
+  width: 120px;
+  height: 35px;
+  position: absolute;
+  top: 78%;
+  left: 13px;
+  font-size: 14px;
+  position: absolute;
+  z-index: 1;
+}
+ @media screen and (max-width: 1700px){
+  .update-category-window-btn {
+    top: 78%;
+    left: 14px;
+ }
+}
+@media screen and (max-width: 1500px){
+  .update-category-window-btn {
+    top: 78%;
+    left: 14px;
+ }
+}
+@media screen and (max-width: 830px){
+  .update-category-window-btn {
+    top: 78%;
+    left: 14px;
+ }
+}
+@media screen and (max-width: 750px){
+  .update-category-window-btn {
+    top: 78%;
+    left: 14px;
+ }
+}
+@media screen and (max-width: 360px){
+  .update-category-window-btn {
+    top: 78%;
+    left: 14px;
+ }
+}
+.category-update-btn {
+  margin-left: 5.5vw;
+  align-items: center;
+  top: 40vh;
+  z-index: 3;
+  box-shadow:
+  2px -6px 7px 2px rgba(0,0,0,0.17) inset,
+  0px -9px 7px 0px rgba(0,0,0,0.15) inset,
+  0px -20px 10px 0px rgba(0,0,0,0.1) inset,
+  0px 2px 1px 0px rgba(0,0,0,0.06),
+  0px 4px 2px 0px rgba(0,0,0,0.09),
+  0px 4px 2px 0px rgba(0,0,0,0.09),
+  0px 8px 4px 0px rgba(0,0,0,0.09);
+}
+
+.update-category-btn{
+ margin-bottom: 12px;
+ left: 5px;
+}
+
+.perent-update-category-window input {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+}
+.perent-update-category-window h2 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.perent-update-category-window p {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+.category-update-btn {
+  text-align: center;
+  width: 120px;
+  font-size: 16px;
+}
+.selected-category-update {
+  font-size: 1.3rem;
+}
+.selected-category-update p {
+  margin: 8px;
+  font-weight: 600;
+  color: #D0F4EA;
+}
+.perent-update-category-window label{
+  width: 80%;
+  margin-left: 44px;
+}
+.update-category-window p {
+  font-size: 0.7rem;
+}

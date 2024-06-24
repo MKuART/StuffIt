@@ -1,0 +1,103 @@
+.dashboard-footer-container {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 2vh;
+  left: 2vh;
+  margin-top: 60vh;
+  background-color: #D499B9;
+  box-shadow: 0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+  0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+  0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+  0px 2px 1px 0px rgba(0,0,0,0.06),
+  0px 4px 2px 0px rgba(0,0,0,0.09),
+  0px 8px 4px 0px rgba(0,0,0,0.09),
+  0px 16px 8px 0px rgba(0,0,0,0.09);
+  border-radius: 16px;
+}
+.dashboard-footer-container-btn {
+  height: 4vh;
+  font-size: 14px;
+   bottom: 14px;
+   position: absolute;
+   margin: 8px;
+}
+@media screen and (max-width: 1050px){
+  .futter{
+    display: none;
+  }
+  span{
+    display: none;
+  }
+  .dashboard-footer-container {
+    margin-top: 62vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  .dashboard-footer-container {
+    margin-top:62vh;
+  }
+}
+.name-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.dashboard-container {
+  width: 100vw;
+  height: 100vh;
+}
+.legend {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15vh;
+  position: absolute;
+  --dark-grey-background: #545F66;
+  --cornflower-blue: #71A9F7;
+  --mint-green: #D0F4EA;
+  --raspberry: #D499B9;
+  --rosa: #E8C1C5;
+}
+.legend-info {
+ width: max-content;
+ padding: 10px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  margin: 0 20px 0 20px;
+  background: var(--raspberry);
+  box-shadow:
+  0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+  0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+  0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+  0px 2px 1px 0px rgba(0,0,0,0.06),
+  0px 4px 2px 0px rgba(0,0,0,0.09),
+  0px 8px 4px 0px rgba(0,0,0,0.09),
+  0px 16px 8px 0px rgba(0,0,0,0.09);
+  border-radius: 16px;
+}
+
+.legend div p {
+  font-size: small;
+  margin: 0px;
+}
+@media screen and (max-width: 720px){
+  .legend-info{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 360px){
+  .legend-info{
+    font-size: 14px;
+  }
+}

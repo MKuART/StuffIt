@@ -1,0 +1,82 @@
+.show-customer {
+    --dark-grey-background: #545F66;
+    --cornflower-blue: #71A9F7;
+    --mint-green: #D0F4EA;
+    --raspberry: #D499B9;
+    --rosa: #e8c1c5;
+    position: absolute;
+    top: 260px;
+    background: var(--raspberry);
+    height: 500px;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 16px;
+    box-shadow: 
+        0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+        0px -36px 30px 0px rgba(0,0,0,0.15) inset,
+        0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+        0px 2px 1px 0px rgba(0,0,0,0.06),
+        0px 4px 2px 0px rgba(0,0,0,0.09),
+        0px 8px 4px 0px rgba(0,0,0,0.09),
+        0px 16px 8px 0px rgba(0,0,0,0.09);
+    font-weight: 800;
+}
+.btn-delete-customer {
+    flex-direction: row;
+}
+
+.back{
+   position: absolute;
+   bottom: 1em;
+   right: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column;
+    width: 90px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.inner-div{
+    width: 90px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (max-width: 366px){
+    .back{
+        font-size: 50%;
+        right: 50px;
+    }
+}
+
+@media (max-width: 199px){
+    .inner-div{
+        height: auto;
+    }
+    .back{
+        top: -50px;
+        left: 20px;
+        width: max-content;
+        background-color: #71A9F7;
+    }
+}
+
+.empty-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
